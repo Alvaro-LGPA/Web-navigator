@@ -5,7 +5,7 @@ This project, Web Navigator, simulates the navigational operations of a web brow
 * navigating back a page and
 * going forward a page. We will use the `Stack` class to maintain the history of visited pages with a `backPages` stack and a `nextPages` stack.
 
-<img src="./img/Stacks.svg" alt="Stacks">
+<img src="./img/Stacks.svg" alt="Stacks" style="background-color: white">
 
 When we open a new page, we push the previous page on the `backPages` stack. When we revisit an old page and then visit a new page from there, we clear any content in the `nextPages` stack.
 
